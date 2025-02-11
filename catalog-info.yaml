@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-hl7
+  description: Repository for python-hl7
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/python-hl7
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Python
+    - Makefile
